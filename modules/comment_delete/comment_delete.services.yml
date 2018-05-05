@@ -1,0 +1,10 @@
+services:
+  comment_delete.access_checker:
+    class: Drupal\comment_delete\Access\CommentDeleteAccessCheck
+    arguments: ['@current_user']
+    tags:
+      - { name: access_check, applies_to: _comment_delete_access_check }
+  comment_delete.route_subscriber:
+    class: Drupal\comment_delete\Routing\CommentDeleteRouteSubscriber
+    tags:
+      - { name: event_subscriber }

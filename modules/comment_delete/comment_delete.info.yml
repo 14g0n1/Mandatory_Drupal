@@ -1,0 +1,11 @@
+name: 'Comment Delete'
+description: 'Enhances user comment deletion capabilities.'
+type: module
+# core: 8.x
+configure: comment_delete.admin
+
+# Information added by Drupal.org packaging script on 2016-03-05
+version: '8.x-1.0'
+core: '8.x'
+project: 'comment_delete'
+datestamp: 1457147344
