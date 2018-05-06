@@ -1,0 +1,10 @@
+name: 'Custom zircon'
+type: theme
+description: 'This is a sub theme of zircon'
+# Defines the base theme
+base theme: zircon
+core: '8.x'
+
+# Defines libraries group in which we can add css/js.
+libraries:
+ - custom_zircon/global-styling

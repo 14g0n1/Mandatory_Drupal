@@ -1,0 +1,10 @@
+name: 'Custom bartik'
+type: theme
+description: 'This is a sub theme of bartik'
+# Defines the base theme
+base theme: bartik
+core: '8.x'
+
+# Defines libraries group in which we can add css/js.
+libraries:
+ - custom_bartik/global-styling

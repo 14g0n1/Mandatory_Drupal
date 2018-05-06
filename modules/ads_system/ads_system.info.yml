@@ -1,0 +1,14 @@
+name: Ads System
+type: module
+description: Provide a Ad entity and Manager Ads, exposed as block. This module add support for switch per breakpoints via ajax.
+# core: 8.x
+package: Ads
+
+
+configure: ads_system.settings
+
+# Information added by Drupal.org packaging script on 2017-08-09
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'ads_system'
+datestamp: 1502256846

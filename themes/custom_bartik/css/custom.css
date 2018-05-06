@@ -1,0 +1,10 @@
+.region-primary-menu .menu a {
+  border-radius: 0px;
+}
+
+.item-list li{
+border:solid;
+border-width: 1px;
+border-color: lightgray;
+margin: 0.5em;
+}
